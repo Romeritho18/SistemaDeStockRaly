@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    /* background-color: black; */
+}
+
+.container {
+    padding: 20px 0px 20px 0px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    padding-right: 500px;
+}
+
+a {
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+a:hover {
+    background-color: rgb(150, 150, 150);
+}
